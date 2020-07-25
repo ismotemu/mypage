@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="got7-website.css" rel="Stylesheet" type="text/css"/>
+</head>
+<body>
+<div style="font-size:10px; Width:100%;">To know more imformation about Got7 please sign up..........!!!
+</div>
+<div class="logintab">
+  <div ><b style=" color:darkgreen;font-size:30px; float:left; text-shadow: 4px 6px 10px limegreen;">Got7 Fan Page... </b><b style="font-size:30px; float:left; text-shadow: 4px 6px 10px hotpink;">&#128151</b></div>
+<button id="signB" onclick="document.getElementById('signup').style.display='block'" style="width:auto;">Sign Up</button>
+
+<div id="signup" class="modal">
+  <span onclick="document.getElementById('signupform').style.display='none'" class="close" title="Close Modal">&times;</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button id="closeB" type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button id="b" type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+  <div class="login-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Username" name="username">
+      <input type="text" placeholder="Password" name="psw">
+      <button type="submit">Login</button>
+    </form>
+  </div>
+</div>
+<div class="search" >
+ <input id="search" type="text" name="search" placeholder="Search.."> 
+</div>
+<div class="sidenav" style="font-size:15px;">
+<p >
+  <b>
+"We don't feel the emptiness when we are together,but we feel it when we are not" -BamBam.
+</p>
+<p>
+"To me, GOT7 are like crutches when one's leg is injured. When I'm having a hard time or about to fall, 
+they're friends that I can lean on once again.They're friends that I can't live without." -Jinyoung.
+</p>
+</b>
+</div>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<div class="main">
+<div class="topimg" style="width:100%">
+<p id="a"style="height:400px;width:auto;">
+<image src ="images\got7.jpg" style="height:100%; width:95%"/>
+</p>
+</div>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <img src="images\got7-concert(1).webp" style="width:100%;height:500px">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <img src="images\got7-concert(2).jpg" style="width:100%;height:500px">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="images\got7-concert(3).webp" style="width:100%; height:500px">
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="images\got7-concert(4).jpg" style="width:100%; height:500px">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+
+
+<div id=tab>
+<button class="tablink" onclick="openpage('name',this,'black')" id="defaultOpen1">Members Profile</button>
+<button class="tablink" onclick="openpage('company',this,'black')">Company</button>
+<button class="tablink" onclick="openpage('dabut',this,'black')">Dabut Information</button>
+<button class="tablink" onclick="openpage('members',this,'black')">Some Fun-fact about Members</button>
+
+</div>
+
+
+<div id="name" class="tabcontent">
+
+<h1>Members Profile:</h1>
+<h3>
+  The group is composed of seven members: JB, Mark, Jackson, Jinyoung, Youngjae, BamBam, and Yugyeom.
+</h3>
+<center>
+<p>
+<h1>1.</h1><h1 class="Name"> JB </h1>
+<img src="images\got7-jeabum.jpg" style="width:400px;height:600px"/>
+<p id="Line"><b>Full Name:</b>Im Jae Bum</P>
+<p id="Line"><b>Stage Name:</b>JB</p>
+<p id="Line"><b>position:</b>Leader,Main Vocalist, Lead Dancer,Center</p>
+<p id="Line"><b>Birth-date:</b>January 6,1994(capricorn)</p>
+<p id="Line"><b>Korean</b></p>
+</p>
+
+
+
+<p>
+<h1>2.</h1><h1 class="Name"> Mark </h1>
+<img src="images\got7-mark.webp" style="width:400px;height:600px"/>
+<p id="Line"><b>Full Name:</b>Mark Yi En Tuan</P>
+<p id="Line"><b>Stage Name:</b>MArk</p>
+<p id="Line"><b>position:</b>Lead Rapper, Sub Vocalist, Visual</p>
+<p id="Line"><b>Birth-date:</b>September 4, 1993(virgo)</p>
+<p id="Line"><b>American (but of Taiwanese descent)</b></p>
+</p>
+
+
+
+<p>
+<h1>3.</h1><h1 class="Name"> Jackson </h1>
+<img src="images\got7-jackson wang(2).jpg" style="width:400px;height:600px"/>
+<p id="Line"><b>Full Name:</b>jackson Wang</P>
+<p id="Line"><b>Stage Name:</b>jackson</p>
+<p id="Line"><b>position:</b>Main Rapper, Lead Dancer, Sub Vocalist, Face of The Group</p>
+<p id="Line"><b>Birth-date:</b> March 28, 1994(Aries)</p>
+<p id="Line"><b>Chinese (from Hong Kong)</b></p>
+</p>
+
+
+
+
+
+
+
+<p>
+<h1>4.</h1><h1 class="Name"> Jinyoung </h1>
+<img src="Cimages\got7-jinyoung.jpeg" style="width:600px;height:400px"/>
+<p id="Line"><b>Full Name:</b>Park Jin Young </P>
+<p id="Line"><b>Stage Name:</b>Jinyoung, formerly Jr./Junior</p>
+<p id="Line"><b>position:</b>Sub Vocalist, Sub Rapper, Visual, Center, Face of The Group</p>
+<p id="Line"><b>Birth-date:</b>September 22, 1994(Virgo)</p>
+<p id="Line"><b>Korean</b></p>
+</p>
+
+
+
+
+
+<p>
+<h1>5.</h1><h1 class="Name"> youngjae </h1>
+<img src="images\got7-youngjae.jpg" style="width:400px;height:600px"/>
+<p id="Line"><b>Full Name:</b>Choi Young Jae </P>
+<p id="Line"><b>Stage Name:</b>YoungJae </p>
+<p id="Line"><b>position:</b>Main Vocalist</p>
+<p id="Line"><b>Birth-date:</b>September 17, 1996(Virgo)</p>
+<p id="Line"><b>Korean</b></p>
+</p>
+
+
+
+
+
+
+
+
+<p>
+<h1>6.</h1><h1 class="Name"> BamBam </h1>
+<img src="images\got7-bambam.webp" style="width:400px;height:600px"/>
+<p id="Line"><b>Full Name:</b>Kunpimook Bhuwakul Bambam </P>
+<p id="Line"><b>Stage Name:</b>BamBam</p>
+<p id="Line"><b>position:</b>Sub Rapper, Sub Vocalist</p>
+<p id="Line"><b>Birth-date:</b>May 2, 1997(Taurus)</p>
+<p id="Line"><b>Thai</b></p>
+</p>
+
+
+
+
+<p>
+<h1>7.</h1><h1 class="Name"> Yugyeom </h1>
+<img src="images\yugyeom.jpeg" style="width:600px;height:400px"/>
+<p id="Line"><b>Full Name:</b>Kim Yu Gyeom</P>
+<p id="Line"><b>Stage Name:</b>Yugyeom</p>
+<p id="Line"><b>position:</b>Main Dancer, Sub Vocalist, Sub Rapper, Maknae</p>
+<p id="Line"><b>Birth-date:</b>November 17, 1997(Scorpio)</p>
+<p id="Line"><b>Korean</b></p>
+</p>
+
+
+
+
+</center>
+</div>
+
+<div id="company" class="tabcontent">
+<div class="companyTitle">
+<p>
+<span Style="font-size:85px;color:Blue;">JYP</span>Entertainment</p>
+</div>
+
+<div>
+JYP Entertainment Corporation (Korean: JYP 엔터테인먼트) is a South Korean multinational entertainment and record label 
+conglomerate founded in 1997 by J. Y. Park.[3] It is one of the largest entertainment companies in South Korea,[4] a
+nd operates as a record label, talent agency, music production company, event management, concert production company 
+and music publishing house.[5][6] In addition, the company operates various subsidiary ventures and divisions worldwide.<br>
+
+Notable artists include Wonder Girls, 2PM, JJ Project, Got7, Day6, Twice, Stray Kids and Itzy. It has also handled Rain, 
+g.o.d, 2AM, Miss A, 15&, and Baek A-yeon. 
+</div>
+
+<aside>
+<div>
+<table>
+<tr><td>Native name:</td><td>JYP 엔터테인먼트</td></tr>
+<tr><td>Type:</td><td>Public</td></tr>
+<tr><td>Industry</td><td>Entertainment Retail</td></tr>
+<tr><td>Genre</td><td><ul><li>K-pop</li><li>R&B</li><li>EDM</li><li>trot</li></ul></td></tr>
+
+<tr><td>Founded</td><td>April 25, 1997; 23 years ago</td></tr>
+<tr><td>Founder</td><td>J. Y. Park</td>
+<tr><td>Headquarters</td><td>Gangdong, Seoul, South Korea</td></tr>
+<tr><td>Area served</td><td>Worldwide</td></tr>
+<tr><td>Key people</td><td>Wook Jung (CEO)</td></tr>
+<tr><td>Revenue	Increase</td><td>  US$128 million (2019)</td></tr>
+<tr><td>Net income</td><td>Increase US$26.4 million (2019)</td></tr>
+</table>
+</div>
+</aside>
+
+</div>
+
+
+
+<div id="dabut" class="tabcontent">
+<h2>2009–2013: JJ Project and formation</h2>
+<div style="font-size:20px;" class="dabut1stpara">
+
+  <image src="images\jjp.jpg"/>
+  
+  
+<p>
+In 2009, JB and Jinyoung were cast into JYP Entertainment after passing open auditions.In 2010, Mark 
+and BamBam were respectively scouted by JYP scouts in Los Angeles, USA and Bangkok, Thailand. That same year, 
+Yugyeom became a JYP trainee after he was offered an opportunity at his dance school. In December, Jackson passed 
+JYP's overseas audition in Hong Kong, but he did not start his training until the summer of 2011.</p>
+<p>
+JB and Jinyoung, then known by the stage name Junior, made their debut as actors in the 2012 television drama Dream High 2.
+ In May, they debuted as the pop duo JJ Project with the single "Bounce".The duo appeared again as actors for the 2013 drama,
+ When a Man Falls in Love.</P>
+<p>
+Meanwhile, Mark, Jackson, BamBam and Yugyeom prepared for their debut together as a group. The quartet made their first television
+ appearance on the fourth episode of Mnet's reality-survival program Who is Next: WIN, which aired on September 6, 2013.The seventh 
+ and final member to join the group was Youngjae, who had only been a trainee for seven months.</p>
+ 
+
+ </div>
+
+<h2>2014: Debut with Got It?, Got Love, Identify and Around the World</h2>
+<div style="font-size:20px;" class="dabut2ndpara">
+
+<img src="images\girlsgirls.gif"/>
+
+<p>
+JYP Entertainment announced Got7 on January 1, 2014, debuting their first boy group since 2PM in 2008.A tentative name of the 
+group was "Get7" (Korean: 겟세븐), but was changed because it didn't sound good.[12] According to Park Jin-young, "Got7" originated from 
+best-selling first-generation group g.o.d, as Park was supposed to debut with them as a six-member mix-gender group and used the working 
+name "Got6".[13][14] The final name includes the lucky number seven, meaning "seven lucky people come together".</p>
+<p>
+Got7 was described as a hip-hop group that incorporates martial arts tricking and b-boying styles in their performances. 
+This style drew comparisons to their senior group, 2PM, who are well known for their acrobatic dance styles.Thus, the group 
+drew attention even before the official debut and received the nickname "post 2PM".</p>
+<p>
+Got7 released their first EP, Got It?, on January 20, 2014. The album shot to No. 1 on Billboard's World Albums Chart and
+ was No. 2 on the Gaon Album Chart.Got7 made their official music program debut on January 16, 2014, through Mnet's M Countdown, 
+ performing their debut single "Girls Girls Girls".Shortly after their debut, the group signed a contract with Japan's Sony Music
+ Entertainment and launched a showcase in Japan in front of 9,000 fans. </p>
+
+</div>
+</div>
+
+<div id="members" class="tabcontent">
+
+<div class="tab1">
+  <button class="tablinks" onclick="openBox(event, 'jb')" >JB</button>
+  <button class="tablinks" onclick="openBox(event, 'mark')">MARK</button>
+  <button class="tablinks" onclick="openBox(event, 'jackson')">JACKSON</button>
+  <button class="tablinks" onclick="openBox(event, 'jinyoung')">JINGYOUNG</button>
+  <button class="tablinks" onclick="openBox(event, 'youngjae')">YOUNGJAE</button>
+  <button class="tablinks" onclick="openBox(event, 'bambam')">BAMBAM</button>
+  <button class="tablinks" onclick="openBox(event, 'yugyeom')">YUGYEOM</button>
+</div>
+
+<div id="jb" class="tabcontent1">
+<center>
+<img src="images\meme(5).jpg"style="width:300px;height:350px"/>
+  <h4>JB Facts:</h4>
+<p style="font-size:18px;">– He was born in Goyang city, Gyeonggi-do, South Korea.<br>
+– He doesn’t have any siblings.<br>
+– His parents are divorced due to his dad’s drinking issues. (“Hello Counselor”)<br>
+– He is part of JJ Project with fellow member Jinyoung (Jr.)<br>
+– He is part of Jus2 with fellow member Yugyeom.<br>
+– He became a JYP trainee in 2009.<br>
+– He acted in ‘Dream High 2’ (2012) and ‘When A Man Falls In Love’ (2013) dramas.<br>
+– JB wrote their GOT7’s title track “You Are”.<br>
+– His favorite food is soondubujiggae (soft spicy tofu stew)<br>
+– His favorite color is grey.<br>
+– JB has 5 cats (PeopleTV interview).
+– He’s close to B.A.P‘s Youngjae, they appeared in “Celeb Bros” ep. 1 together.<br>
+– His dorm partner used to be Youngjae, he changed and shares a room with Jackson.<br>
+– He has a nose piercing (Instagram live).<br>
+– He has said his name is not spelled ‘Jaebum’ but ‘Jaebeom’ because in Hangul, ‘u’ is 우 while his name is written with 어 Which is ‘eo’ (Instagram live).<br>
+– EDIT: He moved out of the dorm.<br>
+– JB’s ideal type is a cute girl who catches his attention.<br>
+</p>
+</center>
+</div>
+
+<div id="mark" class="tabcontent1">
+<center>
+<img src="images/meme(1).png"style="width:300px;height:350px"/>
+  <h4>Mark Facts:</h4>
+<p style="font-size:18px;">– He was born in Los Angeles, California, United States.<br>
+– Family: mom, dad, 2 older sisters and 1 younger brother.<br>
+– He lived in Brazil and Paraguay for a couple of years<br>
+– He became a JYP trainee in August 2010<br>
+– His favorite foods are hamburgers and meat<br>
+– He played volleyball in High School and is a good swimmer.<br>
+– His favorite color is red.<br>
+– He likes horror movies.<br>
+– Mark is close to BTOB‘s Peniel, BTS’s V, Monsta X’s Minhyuk and f(x)’s Amber.<br>
+– His dorm partner used to be Jackson.<br>
+– EDIT: Mark has moved out of the dorm and is living alone now.<br>
+– Mark is ranked 82th on TC Candler “The 100 Most Handsome Faces of 2018”.<br>
+– Mark will be missing the end of years activities due to a leg injury.<br>
+– Mark’s ideal type is a woman who makes him want to stay with her.</p>
+</center>
+</div>
+
+<div id="jackson" class="tabcontent1">
+<center>
+<img src="images\index.jpg"style="width:300px;height:350px"/>
+  <h4>Jackson Facts:</h4>
+<p style="font-size:18px;">– He was born in Hong Kong.<br>
+– Family: mom, dad, 1 brother (older)<br>
+– Was a former member of the Fencing National Team in Hong Kong.<br>
+– He became a JYP trainee on July 3rd, 2011.<br>
+– He participated in the second season of Roommate<br>
+– His favorite foods are chocolate, Dim Sum, spaghetti carbonara, chicken, and hamburgers<br>
+– His favorite color is black.<br>
+– He was in a parody band called Big Byung, along with VIXX‘s N and Hyuk, and BTOB‘s Sungjae.<br>
+– He grew up in the same neighborhood as Lucas from NCT.<br>
+– He is close to Eric Nam.<br>
+– He founded his own agency in China (Hong Kong) called Team Wang.<br>
+– On 25 August 2017 Jackson released his first solo song called Papillon.<br>
+– From September 2017, Jackson won’t participate in Japanese promotions, he will only go to Japan for special events such as 
+award ceremonies (Statement of Sony, GOT7’s company in Japan)<br>
+– He’s close to f(x)’s Amber, RM (BTS), Lay (EXO), Jooheon (Monsta X), Lu Han, etc</p>
+</center>
+</div>
+
+<div id="jinyoung" class="tabcontent1">
+<center>
+<img src="images\meme(6).jpg"style="width:300px;height:350px"/>
+<h4> Jinyoung (Junior) Facts:</h4>
+<p style="font-size:18px;">– He was born in Jinhae-gu, Changwon city, Gyeongsangnam-do, South Korea.
+– Family: mom, dad, 2 older sisters.<br>
+– He is a member of JJ Project with fellow member JB<br>
+– He became a JYP trainee in 2009.<br>
+– He acted in several Korean dramas: “Dream High 2” (2012), “When a Man Loves” (2013), “My Love Eun-Dong” (2015), 
+“Legend of the Blue Sea” (2017), “He Is Psychometric” (2019)<br>
+– Jinyoung is acting in the JYP drama called “Magic School” (2017) together with 2PMs Nichkhun and Park Yoon.<br>
+– His favorite foods are the hamburger, pizza, and all kinds of meat<br>
+– His favorite color is white.<br>
+– He changed his stage name from Jr. (Junior) to his legal name, Jinyoung, on 16 August 2016.<br>
+– He is friends with NCT‘s Doyoung. {He said it on “[got7 on the scene] ep 08 (“look” ver.)”}<br>
+– He used to have his own room at the dorm.<br>
+– Update: Jinyoung is living alone in one apartament now.<br>
+– Jinyoung’s ideal type: A girl who has a lot of aegyo.</p>
+</center>
+</div>
+
+<div id="youngjae" class="tabcontent1">
+<center>
+<img src="images\meme(4).jpg" style="width:300px;height:350px"/>
+ <h4>Youngjae Facts:</h4>
+ <p style="font-size:18px;">
+– He was born Mokpo city, Jeollanam-do, South Korea.<br>
+– Family: mom, dad, 1 older brother and 1 older sister.<br>
+– Sleeps in a lot and have difficulties in waking up in the morning.<br>
+– His nickname is “Genius” or “Sunshine”.<br>
+– He became a JYP trainee in summer 2013.<br>
+– He is known as a serious and hardworking person.<br>
+– His favorite food is everything but cucumbers.<br>
+– His hobby is playing the piano.<br>
+– His favorite color is red.<br>
+– His dorm partner used to be JB.<br>
+– EDIT: Youngjae got out of the dorm and now is living with his brother in Seoul.<br>
+– Youngjae’s ideal type is a woman who he is naturally attracted to.</p>
+</center>
+</div>
+
+<div id="bambam" class="tabcontent1">
+<center>
+<img src="images\meme.jpg"style="width:300px;height:350px"/>
+ <h4>BamBam Facts:</h4>
+ <p style="font-size:18px;">
+– He was born in Bangkok, Thailand.<br>
+– He is from Chinese descent, so he isn’t fully Thai.<br>
+– Family: mom, 2 older brothers, and 1 younger sister. (His dad died when he was very young.)<br>
+– He won 1st place in a “Rain Cover Dance” competition in Thailand back in 2007. He also won 2nd place in the “LG Entertainer” 
+competition in Thailand in 2010.<br>
+– He became a JYP trainee in 2010.<br>
+– He has three siblings named Baby, Bank, and Beer (all of them are well-known dancers in Bangkok)<br>
+– Bambam decided to open a new clothes line called Double B.<br>
+– Bambam’s family owns 50 restaurants in Thailand. (“Knowing Brother”)<br>
+– His favorite foods are cheeseburgers and tom yum kung (an authentic Thai soup)<br>
+– His favorite color is blue.<br>
+– He has four cats: Pudding, Latte, Cupcake and King.<br>
+– He is childhood friend with BlackPink’s Lisa. He’s also friends with other Thai idols like CLC‘s Sorn or NCT’s TEN.<br>
+– In the dorm used to share a room with Yugyeom.<br>
+– EDIT: BamBam moved out of the dorm and lives in his own apartment, which is like 5 minutes away from the dorm.</p>
+</center>
+</div>
+
+<div id="yugyeom" class="tabcontent1">
+<center>
+<img src="images\meme(3).jpg"style="width:300px;height:350px"/>
+ <h4>Yugyeom Facts:</h4>
+ <p style="font-size:18px;">
+– Yugyeom said that his mother got pregnant in Saudi Arabia but he was born in Seoul. Then they moved back in Saudi Arabia 
+because of his dad’s job and he grew up there for a while. (STAR Interview GOT7)<br>
+– Later, his hometown was Namyangju-si, Gyeonggi-do, South Korea.<br>
+– Family: mom, dad, 1 brother (older).<br>
+– His favorite food is samgyeopsal (grilled pork belly), kimbap (the Korean version of sushi), bulgogi (grilled marinated beef) and chicken<br>
+– His favorite colors are are yellow and black.<br>
+– He became a JYP trainee in late 2010/ early 2011.<br>
+– He is part of Jus2 with fellow member JB.<br>
+– Although he is the maknae, many confuse him to be one of the oldest because of his height and his mature appearance.<br>
+– Bambam & Yugyeom, BTS‘s Jungkook, Seventeen‘s The8, Mingyu, DK,  NCT‘s Jaehyun and Astro‘s Cha Eunwoo (the ’97 liners) are in a group chat.<br>
+– He won first place on the dance competition “Hit the Stage” (Ep. 10).<br>
+– In the dorm he used to share a room with BamBam.<br>
+– Update: Yugyeom moved out of the dorm, he invited a composer hyung to live with him as he is scared to live by himself.</p>
+</center>
+</div>
+
+<div class="clearfix"></div>
+</div>
+
+<div id="others" class="tabcontent">
+<h1>OTHERS:</h1>
+<p>
+ Got7 debuted in January 2014 with the release of their first EP Got It?,
+ which peaked at number two on the Gaon Album Chart and number one on Billboard's World Albums Chart.
+</P>
+</div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('signup');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+// When the user scrolls down
+window.onscroll = function() {
+        scrollFunction()
+         myFunction()
+	  };
+	  
+	  
+//Get the top button
+var mybutton = document.getElementById("myBtn");
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+//pic slide show
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+
+
+//stick navbar
+
+var navbar = document.getElementById("tab");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+
+
+function openpage(pageName, elmnt, color) {
+  // Hide all elements with class="tabcontent" by default */
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Remove the background color of all tablinks/buttons
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+
+  // Show the specific tab content
+  document.getElementById(pageName).style.display = "block";
+
+  // Add the specific color to the button used to open the tab content
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen1").click(); 
+
+
+//side tab in members information button
+function openBox(evt, memberName) {
+   var s1=memberName;
+   var m1="jb";
+   var m2="mark";
+   var m3="jackson";
+   var m4="jinyoung";
+   var m5="youngjae";
+   var m6="bambam";
+ 
+   if(s1.localeCompare(m1)<1){
+	alert("'Since You Have a Dream Don't Lose The Sight Of That Dream' -Im Jaebum");
+	}
+   else if(s1.localeCompare(m2)<1){
+	alert("'No Matter How You Feel,Get Up, Dress Up, Never Give Up' -Mark");
+	}
+	else if(s1.localeCompare(m3)<1){
+	alert("a");
+	}
+	else if(s1.localeCompare(m4)<1){
+	alert("a");
+	}
+	else if(s1.localeCompare(m5)<1){
+	alert("'Beautiful Begin The Moment You Decide To Be Yourself' -Youngjae");
+	}
+	else if(s1.localeCompare(m6)<1){
+	alert("'Doesn't Matter How Slow You Go As Long As You Do Not Stop' -BamBam");
+	}
+	else{alert("'It Doesn't Matter If You Are Good Or Bad because You Have Passion' -Kim Yugyeom");}
+	
+	
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent1");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+	
+  }
+   document.getElementById(memberName).style.display = "block";
+
+   evt.currentTarget.className += " active";   
+
+}
+
+</script>
+</body>
+</html>
